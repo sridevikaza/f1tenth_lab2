@@ -72,9 +72,14 @@ Note that if you're using Windows, make sure your files have Unix style line end
 
 **Deliverable 2**: Make a screen cast of running your safety node in the simulation. You can use Kazam for ubuntu/linux and inbuilt video recorder from gamebar for windows 10/11 or QuickTime Player for MacOs. Drive the car with keyboard teleop along the hallways of Levine, showing it doesn't brake when travelling straight in the hallway. You need to show that your safe node doesn't generate false positives. i.e. The car doesn't suddenly stop while travelling down the hallway. Then show the car driving towards a wall and braking correctly. Upload your video to YouTube (unlisted) and include a link to the video in **`SUBMISSION.md`**.
 
+**(optional) Deliverable 3**: For deliverable 2, you do not need to demonstate emergency braking while turning but only when it's moving straight. When the vehicle turns, there is also a lateral veocity component of the centre of mass of the vehicle. You can assume kinematic bicycle model for the vehicle assuming no lateral slip at the tires and derive the lateral velocity and thus the velocity direction of the car. You can also assume Centre of Mass (CoM) of the car is at the same position as the lidar sensor mount. Refer to this [Link](https://dingyan89.medium.com/simple-understanding-of-kinematic-bicycle-model-81cac6420357) for basic understanding of the kinematic bicycle model. In this case you will need to project the complete velocity vector on each beam to get the rate and not just the longitudinal velocity of the car. 
+
+Although not required for Deliverable 3, 'Rajesh Rajamani's Vehicle Dynamics and Control' chapter 2 [Link](https://link.springer.com/book/10.1007/978-1-4614-1433-9) is a nice reference to understand the lateral dynamics at high speeds when there would be considerable lateral slip at the tyres. 
+
 ## VI: Grading Rubric
 - Compilation: **30** Points
 - Provided Video: **20** Points
 - Correctly stops before collision: **30** Points
 - Correctly calculates TTC: **10** Points
 - Able to navigate through the hallway: **10** Points
+- (optional) Able to demonstrate calculating TTC and stops while turning: **10** Points (bonus)
