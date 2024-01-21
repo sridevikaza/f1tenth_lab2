@@ -77,9 +77,9 @@ Note that if you're using Windows, make sure your files have Unix style line end
 Although not required for Deliverable 3, 'Rajesh Rajamani's Vehicle Dynamics and Control' chapter 2 [Link](https://link.springer.com/book/10.1007/978-1-4614-1433-9) is a nice reference to understand the lateral dynamics at high speeds when there would be considerable lateral slip at the tyres. 
 
 ## VI: Grading Rubric
-- Compilation: **30** Points
-- Provided Video: **20** Points
-- Correctly stops before collision: **30** Points
+- Compilation: **10** Points
+- Provided Video: **10** Points
+- Correctly stops before collision: **10** Points
 - Correctly calculates TTC: **10** Points
-- Able to navigate through the hallway: **10** Points
-- (optional) Able to demonstrate calculating TTC and stops while turning: **10** Points (bonus)
+- Able to navigate through the hallway: **5** Points
+- (optional) Able to demonstrate calculating TTC and stops while turning: **5** Points (bonus)
